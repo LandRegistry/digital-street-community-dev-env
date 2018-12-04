@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 * CHANGELOG.md based on the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format.
+* Bug report and feature request issue templates
 * CorDapp Technical Design & Flow
 
 ## [1.0.0](https://github.com/LandRegistry/digital-street-community-dev-env/releases/tag/1.0.0) - 2018-11-21
