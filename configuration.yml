@@ -1,5 +1,5 @@
 applications:
   title-api:
-    repo: git@github.com:LandRegistry/digital-street-title-api.git
+    repo: https://github.com/LandRegistry/digital-street-title-api.git
     branch: master
 
