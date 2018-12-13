@@ -20,7 +20,7 @@ cd digital-street-dev-env
 source run.sh up
 ```
 
-When prompted for the url of your configuration repository, enter: `git@github.com:LandRegistry/digital-street-community-dev-env.git`
+When prompted for the url of your configuration repository, enter: `https://github.com/LandRegistry/digital-street-community-dev-env.git`
 
 ## Applications
 
