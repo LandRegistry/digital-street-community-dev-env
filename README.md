@@ -15,7 +15,7 @@
 This development environment uses the Land Registry common development environment. Please refer to the readme here: https://github.com/LandRegistry/common-dev-env
 
 ```shell
-git clone git@github.com:LandRegistry/common-dev-env.git digital-street-dev-env
+git clone https://github.com/LandRegistry/common-dev-env.git digital-street-dev-env
 cd digital-street-dev-env
 source run.sh up
 ```
