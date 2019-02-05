@@ -24,14 +24,24 @@ When prompted for the url of your configuration repository, enter: `https://gith
 
 ## Applications
 
-|Application|Port|Container URL|
+|Application|Port|Internal Container URL|
 |---|---|---|
-|[`title-api`](https://github.com/landregistry/digital-street-title-api)|8005|http://title-api:8080|
-|[`title-ui`](https://github.com/LandRegistry/digital-street-title-ui)|7004|http://title-ui:7004|
-|[`hmlr-api`](https://github.com/LandRegistry/digital-street-hmlr-api)|7008|http://hmlr-api:7008|
-|[`conveyancer-api`](https://github.com/LandRegistry/digital-street-conveyancer-api)|7006|http://conveyancer-api:7006|
-|[`conveyancer-ui`](https://github.com/LandRegistry/digital-street-conveyancer-ui)|7002, 7003|http://conveyancer-ui:7002 http://conveyancer-ui:7003|
-|[`case-management-api`](https://github.com/LandRegistry/digital-street-case-management-api)|8003, 8004|http://case-management-api:8003 http://case-management-api:8004|
+|[`conveyancer-ui`](http://github.com/LandRegistry/digital-street-conveyancer-ui)|7002-7003|https://conveyancer-ui:8080|
+|[`case-management-api`](http://github.com/LandRegistry/digital-street-case-management-api)|8003-8004|http://case-management-api:8080|
+|[`hmlr-ui`](http://github.com/LandRegistry/digital-street-hmlr-ui)|7001|https://hmlr-ui:8080|
+|[`title-ui`](http://github.com/LandRegistry/digital-street-title-ui)|7004|https://title-ui:8080|
+|[`title-api`](http://github.com/LandRegistry/digital-street-title-api)|8005|http://title-api:8080|
+|[`lender-ui`](http://github.com/LandRegistry/digital-street-lender-ui)|7009-7010|https://lender-ui:8080|
+|[`lender-management-api`](http://github.com/LandRegistry/digital-street-lender-management-api)|8001-2002|http://lender-management-api:8080|
+
+## Applications outside dev env
+
+|Application|Port|
+|---|---|
+|[`digital-street-cordapp`](http://github.com/LandRegistry/digital-street-cordapp)|10002-10033,2222|
+|[`conveyancer-api`](http://github.com/LandRegistry/digital-street-conveyancer-api)|7006-7007|
+|[`hmlr-api`](http://github.com/LandRegistry/digital-street-hmlr-api)|7008|
+|[`lender-api`](http://github.com/LandRegistry/digital-street-lender-api)|7006-7007|
 
 Please follow instructions in the `digital-street-cordapp` [README](https://github.com/landregistry/digital-street-cordapp) to set up and deploy the CorDapp.
 
