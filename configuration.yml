@@ -7,9 +7,6 @@ applications:
     repo: git@github.com:LandRegistry/digital-street-case-management-api.git
     branch: master
   # HMLR
-  hmlr-ui:
-    repo: git@github.com:LandRegistry/digital-street-hmlr-ui.git
-    branch: master
   title-ui:
     repo: git@github.com:LandRegistry/digital-street-title-ui.git
     branch: master
