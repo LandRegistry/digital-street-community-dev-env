@@ -33,6 +33,7 @@ When prompted for the url of your configuration repository, enter: `https://gith
 |[`title-api`](http://github.com/LandRegistry/digital-street-title-api)|8005|http://title-api:8080|
 |[`lender-ui`](http://github.com/LandRegistry/digital-street-lender-ui)|7009-7010|https://lender-ui:8080|
 |[`lender-management-api`](http://github.com/LandRegistry/digital-street-lender-management-api)|8001-2002|http://lender-management-api:8080|
+|[`payment-ui`](http://github.com/LandRegistry/digital-street-payment-ui)|7005|http://payment-ui:8080|
 
 ## Applications outside dev env
 
@@ -42,6 +43,7 @@ When prompted for the url of your configuration repository, enter: `https://gith
 |[`conveyancer-api`](http://github.com/LandRegistry/digital-street-conveyancer-api)|7006-7007|
 |[`hmlr-api`](http://github.com/LandRegistry/digital-street-hmlr-api)|7008|
 |[`lender-api`](http://github.com/LandRegistry/digital-street-lender-api)|7006-7007|
+|[`payment-api`](http://github.com/LandRegistry/digital-street-payment-api)|5001|
 
 Please follow instructions in the `digital-street-cordapp` [README](https://github.com/landregistry/digital-street-cordapp) to set up and deploy the CorDapp.
 
