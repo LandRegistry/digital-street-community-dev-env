@@ -28,7 +28,6 @@ When prompted for the url of your configuration repository, enter: `https://gith
 |---|---|---|
 |[`conveyancer-ui`](http://github.com/LandRegistry/digital-street-conveyancer-ui)|7002-7003|https://conveyancer-ui:8080|
 |[`case-management-api`](http://github.com/LandRegistry/digital-street-case-management-api)|8003-8004|http://case-management-api:8080|
-|[`hmlr-ui`](http://github.com/LandRegistry/digital-street-hmlr-ui)|7001|https://hmlr-ui:8080|
 |[`title-ui`](http://github.com/LandRegistry/digital-street-title-ui)|7004|https://title-ui:8080|
 |[`title-api`](http://github.com/LandRegistry/digital-street-title-api)|8005|http://title-api:8080|
 |[`lender-ui`](http://github.com/LandRegistry/digital-street-lender-ui)|7009-7010|https://lender-ui:8080|
