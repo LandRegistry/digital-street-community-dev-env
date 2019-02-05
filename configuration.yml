@@ -23,3 +23,7 @@ applications:
   lender-management-api:
     repo: git@github.com:LandRegistry/digital-street-lender-management-api.git
     branch: master
+  # Payment
+  payment-ui:
+    repo: git@github.com:LandRegistry/digital-street-payment-ui.git
+    branch: master
