@@ -2,25 +2,25 @@ applications:
   # Conveyancer
   conveyancer-ui:
     repo: git@github.com:LandRegistry/digital-street-conveyancer-ui.git
-    branch: master
+    ref: 0.6.1
   case-management-api:
     repo: git@github.com:LandRegistry/digital-street-case-management-api.git
-    branch: master
+    ref: 0.2.1
   # HMLR
   title-ui:
     repo: git@github.com:LandRegistry/digital-street-title-ui.git
-    branch: master
+    ref: 0.1.1
   title-api:
     repo: git@github.com:LandRegistry/digital-street-title-api.git
-    branch: master
+    ref: 0.2.1
   # Lender
   lender-ui:
     repo: git@github.com:LandRegistry/digital-street-lender-ui.git
-    branch: master
+    ref: 0.5.0
   lender-management-api:
     repo: git@github.com:LandRegistry/digital-street-lender-management-api.git
-    branch: master
+    ref: 0.2.0
   # Payment
   payment-ui:
     repo: git@github.com:LandRegistry/digital-street-payment-ui.git
-    branch: master
+    ref: 0.3.0
