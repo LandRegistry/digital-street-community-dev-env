@@ -1,26 +1,52 @@
 applications:
+  # CorDapp
+  digital-street-cordapp:
+    repo: git@github.com:LandRegistry/digital-street-cordapp.git
+    ref: 0.5.2
+    options:
+      - auto-start: false
   # Conveyancer
+  conveyancer-api:
+    repo: git@github.com:LandRegistry/digital-street-conveyancer-api.git
+    ref: 0.4.1
+    options:
+      - auto-start: false
   conveyancer-ui:
     repo: git@github.com:LandRegistry/digital-street-conveyancer-ui.git
-    ref: 0.6.1
+    ref: 0.7.2
   case-management-api:
     repo: git@github.com:LandRegistry/digital-street-case-management-api.git
-    ref: 0.2.1
+    ref: 0.3.0
   # HMLR
-  title-ui:
-    repo: git@github.com:LandRegistry/digital-street-title-ui.git
-    ref: 0.1.1
+  hmlr-api:
+    repo: git@github.com:LandRegistry/digital-street-hmlr-api.git
+    ref: 0.3.0
+    options:
+      - auto-start: false
   title-api:
     repo: git@github.com:LandRegistry/digital-street-title-api.git
-    ref: 0.2.1
+    ref: 0.3.0
+  title-ui:
+    repo: git@github.com:LandRegistry/digital-street-title-ui.git
+    ref: 0.2.0
   # Lender
+  lender-api:
+    repo: git@github.com:LandRegistry/digital-street-lender-api.git
+    ref: 0.2.2
+    options:
+      - auto-start: false
   lender-ui:
     repo: git@github.com:LandRegistry/digital-street-lender-ui.git
-    ref: 0.5.0
+    ref: 0.5.1
   lender-management-api:
     repo: git@github.com:LandRegistry/digital-street-lender-management-api.git
-    ref: 0.2.0
+    ref: 0.3.0
   # Payment
+  payment-api:
+    repo: git@github.com:LandRegistry/digital-street-payment-api.git
+    ref: 0.3.2
+    options:
+      - auto-start: false
   payment-ui:
     repo: git@github.com:LandRegistry/digital-street-payment-ui.git
-    ref: 0.3.0
+    ref: 0.3.1
