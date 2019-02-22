@@ -2,18 +2,18 @@ applications:
   # CorDapp
   digital-street-cordapp:
     repo: git@github.com:LandRegistry/digital-street-cordapp.git
-    ref: 0.5.2
+    ref: 0.6.0
     options:
       - auto-start: false
   # Conveyancer
   conveyancer-api:
     repo: git@github.com:LandRegistry/digital-street-conveyancer-api.git
-    ref: 0.4.1
+    ref: 0.5.1
     options:
       - auto-start: false
   conveyancer-ui:
     repo: git@github.com:LandRegistry/digital-street-conveyancer-ui.git
-    ref: 0.7.2
+    ref: 0.8.0
   case-management-api:
     repo: git@github.com:LandRegistry/digital-street-case-management-api.git
     ref: 0.3.0
